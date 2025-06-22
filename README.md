@@ -1,6 +1,6 @@
 # 🚀 CI/CD Flask App with Docker
 
-This project demonstrates how to build a simple Flask web application, Dockerize it, and prepare it for CI/CD workflows. It's a great starting point for deploying Python web apps in containerized environments.
+This project demonstrates how to build a simple Flask web application, Dockerize it. It's a great starting point for deploying Python web apps in containerized environments.
 
 ---
 
@@ -90,3 +90,7 @@ Then access the app at [http://localhost:5000](http://localhost:5000)
 - Add production-ready configurations (e.g., Gunicorn, Nginx)
 - Add environment variable management using `.env`
 - Implement test coverage reports and advanced test cases
+
+---
+
+
