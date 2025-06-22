@@ -90,9 +90,3 @@ Then access the app at [http://localhost:5000](http://localhost:5000)
 - Add production-ready configurations (e.g., Gunicorn, Nginx)
 - Add environment variable management using `.env`
 - Implement test coverage reports and advanced test cases
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
