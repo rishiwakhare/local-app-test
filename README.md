@@ -11,7 +11,6 @@ ci-cd-flask-app/
 ├── app.py              # Main Flask app
 ├── requirements.txt    # Python dependencies
 ├── Dockerfile          # Docker image build instructions
-├── test_app.py         # Unit test for the app
 ```
 
 ---
@@ -22,10 +21,6 @@ Ensure you have the following installed:
 
 - [Python 3.10+](https://www.python.org/downloads/)
 - [Docker](https://www.docker.com/)
-- `pytest` for testing:
-  ```bash
-  pip install pytest
-  ```
 
 ---
 
@@ -43,16 +38,6 @@ cd ci-cd-flask-app
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## 🧪 Run Unit Tests
-
-```bash
-pytest test_app.py
-```
-
-This will run a simple test to verify that the Flask app returns the correct response.
 
 ---
 
